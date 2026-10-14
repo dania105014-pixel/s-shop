@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <title>S-Shop</title>
+        <link rel=stylesheet href="t-s-shop.css">
+    </head>
+    <body>
+        <DIV class = "topber">
+            <div class = "container topber-inner">
+                <span>شحن مجاني داخل العراق وخارجة </span>
+            <div class = "toper-like">
+                <span>الدفع الآمن</span>
+                <span>تواصل معنا</span>
+            </div>
+            </div>
+        </DIV>
+        <DIV class = "header">
+            <div class = "container header-inner">
+                <div class = "brand">
+                    <div class = "brand-icon"> S
+                    </div>
+                    <span>متجر سمبوسة</span>
+                </div>
+
+                <nav class = "nav">
+                    <a >الرئيسية</a>
+                    <a >المنتجات</a>
+                    <a >العروض</a>
+                    <a >اتصل بنا</a>
+                </nav>
+                <div class = "header-action">
+                    <button class = "icon-btn">⌕</button>
+                    <button class = "icon-btn">♡</button>
+                    <button class = "icon-btn">🛒</button>
+                    <button class = "inter-btn">تسجيل الدخول</button>
+                </div>
+            </div>
+        </DIV>
+
+        <main>
+            <section class= "hero">
+                <div class= "container hero-inner">
+                  <div class = "hero-text">
+                  <div class = "eyebrow">توصيل سريع</div>
+                    <h1>مرحبا بك في متجر سمبوسة</h1>
+                    <h1>أفضل وجهة للتسوق عبر الإنترنت</h1>
+                    <p>اكتشف أفضل المنتجات بأسعار <strong>تنافسية</strong></p>
+
+                    <div>
+                        <button class="shop-now-btn">تسوق الآن</button>
+                        <button class="learn-more-btn">اعرف المزيد</button>
+                    </div>
+
+                    <div class="hero-metrics">
+                        <div class = "metric">
+                            <strong>100+</strong>
+                            <span>منتج</span>
+                        </div>
+                        <div class = "metric">
+                            <strong>500+</strong>
+                            <span>عميل</span>
+                        </div>
+                        <div class = "metric">
+                            <strong>24/7</strong>
+                            <span>دعم فني</span>
+                        </div>
+                    </div>
+                  </div>  
+
+                  <div class="hero-visual">
+          <div class="visual-card">
+            <div class="main-product">
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80" alt="ساعات ذكية" />
+              <div class="product-tag">خصم 40%</div>
+              <div class="product-info">
+                <div>
+                  <div class="product-review">
+                    <span class="stars">★★★★★</span>
+                    <span>(4.8)</span>
+                  </div>
+                  <strong style="display:block; margin-top:8px; font-size:1.35rem;">ساعة ذكية</strong>
+                </div>
+                <strong style="font-size:1.5rem; color: var(--primary);">399 ر</strong>
+              </div>
+            </div>
+            <div class="floating-card">
+              <span style="color: var(--muted);">توصيل مجاني</span>
+              <strong>لأكثر من 250 منتج</strong>
+              <span style="color: var(--accent-2); font-weight:700;">هذا الأسبوع</span>
+            </div>
+          </div>
+        </div>
+                </div>
+            </section>
+
+        <section class="section">
+          <div class="container">
+          <div class="section-head">
+          <div>
+            <h2>تسوق حسب الفئة</h2>
+          </div>
+          <p>اكتشف أفضل الخيارات من كل فئة</p>
+        </div>
+
+        <div class="category-grid">
+          <div class="category-card">
+            <div class="category-icon">📱</div>
+            <h3>إلكترونيات</h3>
+            <small>185 منتج</small>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">👗</div>
+            <h3>ملابس</h3>
+            <small>320 منتج</small>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">🧴</div>
+            <h3>عناية شخصية</h3>
+            <small>140 منتج</small>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">🏠</div>
+            <h3>منزل</h3>
+            <small>210 منتج</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class = "section">
+      <div class = "container">
+        <div class = "head-section">
+          <div>
+            <h2>>منتجات مميزة</h2>
+          </div>
+          <p>أفضل ما يميزك هذا الأسبوع</p>
+          
+        </div>
+        <div class="toolbar">
+          <div class="filter-group" id="filters">
+            <button class="filter-pill">الكل</button>
+            <button class="filter-pill">إلكترونيات</button>
+            <button class="filter-pill">ملابس</button>
+            <button class="filter-pill">عناية</button>
+            <button class="filter-pill">منزل</button>
+          </div>
+          
+          <label class="search-box" aria-label="البحث في المنتجات">
+            <span>⌕</span>
+            <input id="searchInput" type="text" placeholder="ابحث عن المنتج..." />
+          </label>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      </div>
+
+    </section>
+
+        </main>
+    </body>
+</html>
